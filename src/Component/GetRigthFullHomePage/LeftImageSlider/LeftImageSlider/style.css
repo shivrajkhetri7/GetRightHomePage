@@ -1,0 +1,17 @@
+.LeftCardTitle{
+    text-align: left;
+  }
+  .LeftCardSubTitle{
+    text-align: left;
+  }
+    
+  @media screen and (max-width:760px) {
+    .LeftCardTitle{
+      text-align: center;
+      font-size: 16px;
+    }
+    .LeftCardSubTitle{
+      text-align: center;
+      font-size: 12px
+    }
+  }

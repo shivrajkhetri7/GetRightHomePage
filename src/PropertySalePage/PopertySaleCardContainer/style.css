@@ -1,0 +1,45 @@
+
+.filterModel{
+    padding: 5px;
+    /* border-radius: 3px; */
+    border: 1px solid rgb(227, 227, 227);
+     /* background-color: #f0f4ff; */
+}
+.calender{
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(227, 227, 227);
+    background-color: white;
+}
+.priceCardPropertySale{
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(227, 227, 227);
+    background-color: white;
+   
+
+}
+.input1{
+    font-size: 12px;
+}
+.btnFilter{
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    font-size: 11px;
+    padding: 5px 15px;
+    margin: 10px;
+    border-radius: 100px;
+    min-width: 170px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+    background: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+}

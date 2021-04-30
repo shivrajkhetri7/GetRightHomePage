@@ -1,0 +1,17 @@
+.SliderHomeCardTitle{
+    text-align: left;
+  }
+  .SliderHomeCardSubTitle{
+    text-align: left;
+  }
+    
+  @media screen and (max-width:760px) {
+    .SliderHomeCardTitle{
+      text-align: center;
+      font-size: 16px!important;
+    }
+    .SliderHomeCardSubTitle{
+      text-align: center;
+      font-size: 12px
+    }
+  }

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.sliderCard{
+    height: 400px;
+    border: 1px solid rgb(229, 229, 229);
+    width: auto;
+    overflow: hidden;
+    background-color: rgb(249, 249, 249);
+    border-radius: 3px;
+}
+.img  
+{  
+        height: 200px;
+        width:100%;
+        background-color: transparent;
+} 
+
+.sliderCardText{
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+}
+.sliderTitle{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 16px;
+}
+.sliderTitleHidden{
+    font-size: 12px!important;
+}
+.sliderSubTitle{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.sliderCardFooter{
+    font-size: 12px;
+    text-align: center;
+}
+.ApartmentSize{
+    font-size: 12px;
+}
+.hl{
+    height:2px ;
+    background: #007bff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+  .PropertySliderKnowMoreCantact{
+      /* background-color:#4bd80a!important; */
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    font-size: 11px;
+    padding: 5px 15px;
+    margin: 10px;
+    border-radius: 100px;
+    min-width: 170px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+    background: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+  }
+
+  @media screen and (max-width:763px) {
+    .sliderCard{
+        height: auto;
+        
+    }
+      
+  }

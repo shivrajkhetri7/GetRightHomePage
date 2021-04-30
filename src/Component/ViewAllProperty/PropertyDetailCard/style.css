@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.JamboCard{
+    width: 100%;
+    height: 250px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 3px;
+    font-family: 'Rubik', sans-serif;
+}
+.PropertyImageCintainer{
+    height: 250px;
+    width: 100%;
+
+}
+.ViewAllPropertyImage{
+   width: 100%;
+   height: 100%;
+}
+.ViewAllPropertyApartmentTitle{
+    text-align: left;
+    padding-left:2px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+.ViewAllPropertyApartmentTitleMutedText{
+    text-align: left;
+    padding-left:2px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+.ViewAllPropertyDetailCard{
+    height: 100px;
+    width: 100%;
+    background-color: #f0f4ff;
+    border-radius: 3px;
+}
+.viewAllPropertyArea{
+    text-align: left;
+    padding-left:10px;
+    padding-top: 2px;
+}
+.viewAllPropertyArea-title{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+
+.ViewAllPropertyDetailAmenitiesCard{
+    border: 1px solid #f0f4ff;
+    height: 100px;
+    width: 100%;
+}
+.ViewAllPropertyDetailAmenitiesCard-title{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+.ViewAllPropertyDetailAmenitiesCardData{
+    text-align: left;
+}
+.ViewAllAmenitiesHere{
+    font-size: 12px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+.btnViewAllContact{
+    cursor: pointer;
+    color: white;
+    display: block;
+    min-width: 142px;
+    max-width: 144px;
+    padding: 9px 10px;
+    border-radius: 0;
+    line-height: 18px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 0 solid #fe943e;
+    background-color: #fe943e;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.PropertyImageCintainerMargerViewAll{
+    position: relative;
+}
+.btnSale{
+    position: absolute;
+    left: 0px;
+    width: 60px;
+    height: 25px;
+    font-size: 10px;
+    color: white;
+    border-radius: 0px 0px 0px 0px;
+    background-color: #01a043;
+}
+@media screen and (max-width:763px) {
+    .JamboCard{
+        height: auto;
+      
+    }
+    .JumboInnerData{
+        padding: 5px;
+    }
+}

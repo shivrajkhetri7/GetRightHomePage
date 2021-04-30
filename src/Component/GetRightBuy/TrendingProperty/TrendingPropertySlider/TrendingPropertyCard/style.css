@@ -1,0 +1,44 @@
+.trendingProperty{
+    width: 500px;
+    height: 400px;
+    font-size: 12px;
+    overflow: hidden;
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.FlexSpaceBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* justify-content: space-around; */
+}
+.TrendingPropertyCardText{
+    text-align: left;
+}
+
+@media screen and (max-width:760px) {
+    .trendingProperty{
+        width:auto;
+        height: 400px;
+        font-size: 12px;
+        overflow: hidden;
+    }
+    .FlexSpaceBtn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .TrendingPropertyCardText{
+        text-align: justify;
+    }
+    .CardBodyInnerData{
+        padding: 5px;
+    }
+    .card-body-imp{
+        padding: 0px!important;
+    }
+}
